@@ -1,0 +1,1 @@
+LOGIC questions result of the CODING NINJAS INTRODUCTION TO JAVA course.
