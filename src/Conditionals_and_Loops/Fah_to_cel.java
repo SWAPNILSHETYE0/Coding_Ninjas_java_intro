@@ -15,8 +15,11 @@ public class Fah_to_cel {
 	static void calTemp(int S, int E, int W){
 		for(int i = S; i <= E; i+=W){
 			int f =(int) ((i - 32) / 1.8);
-			// System.out.printf("%-7d%-4d%n",i,f);
-			System.out.printf("%1$-4d%2$-4d%n",i,f);			
+//			System.out.println(i+" "+f);
+			/*this will directly print the temp in fah & cel*/
+			System.out.printf("%1$-4d%2$-4d%n",i,f);
+			/*this will print the temp in fah & cel with some formatting.
+			 * refer to https://www.w3schools.com/java/ref_output_printf.asp for more.*/
 		}
 	}
 
